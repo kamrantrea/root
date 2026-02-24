@@ -24,7 +24,7 @@ export default function AskPage() {
     if (!trimmed) return;
 
     const userMsg: Message = {
-      id: crypto.randomUUID(),
+      id: `${Date.now().toString(36)}-${Math.random().toString(36).slice(2)}`,
       role: "user",
       content: trimmed,
     };
@@ -33,7 +33,7 @@ export default function AskPage() {
       ...prev,
       userMsg,
       {
-        id: crypto.randomUUID(),
+        id: `${Date.now().toString(36)}-${Math.random().toString(36).slice(2)}`,
         role: "assistant",
         content: "AI responses are not yet connected. This is a Phase 1 scaffold.",
       },

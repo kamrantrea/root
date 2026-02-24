@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getDocBySlug, getAllDocs, DocFolder } from "@/lib/docs";
 import { compileMDX } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 
 function getAllSlugs(folder: DocFolder): string[][] {
   const slugs: string[][] = folder.files.map((f) => f.slug);
@@ -37,7 +38,7 @@ export default async function DocPage({ params }: { params: Promise<{ slug: stri
 
   const { content } = await compileMDX({
     source: doc.content,
-    options: { parseFrontmatter: true },
+    options: { parseFrontmatter: true, mdxOptions: { remarkPlugins: [remarkGfm] } },
   });
 
   return (

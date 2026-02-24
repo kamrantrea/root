@@ -16,9 +16,13 @@ interface TimelineEvent {
 }
 
 function getTimelineEvents(): TimelineEvent[] {
-  const filePath = path.join(process.cwd(), "data", "timeline.json");
-  const raw = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(raw) as TimelineEvent[];
+  try {
+    const filePath = path.join(process.cwd(), "data", "timeline.json");
+    const raw = fs.readFileSync(filePath, "utf-8");
+    return JSON.parse(raw) as TimelineEvent[];
+  } catch {
+    return [];
+  }
 }
 
 export default function TimelinePage() {

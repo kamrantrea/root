@@ -18,7 +18,7 @@ export interface DocFolder {
 
 const DOCS_DIR = path.join(process.cwd(), "docs");
 
-function toLabel(name: string): string {
+export function toLabel(name: string): string {
   return name
     .replace(/-/g, " ")
     .replace(/\b\w/g, (c) => c.toUpperCase());
@@ -32,7 +32,7 @@ function getMdxFrontmatter(filePath: string): { title: string; description?: str
       description: typeof data.description === "string" ? data.description : undefined,
     };
   } catch {
-    // ignore
+    // Missing or unreadable frontmatter is expected for some files; fall back to empty.
   }
   return { title: "" };
 }

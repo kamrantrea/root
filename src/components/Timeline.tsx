@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { toLabel } from "@/lib/docs";
 
 interface TimelineEvent {
   id: string;
@@ -41,7 +42,7 @@ export default function Timeline({ events }: { events: TimelineEvent[] }) {
                       href={`/library/${docSlug}`}
                       className="text-xs text-stone-500 hover:text-stone-900 underline underline-offset-2 transition-colors"
                     >
-                      {docSlug.split("/").pop()?.replace(/-/g, " ")}
+                      {toLabel(docSlug.split("/").pop() ?? docSlug)}
                     </Link>
                   ))}
                 </div>
