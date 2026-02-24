@@ -1,0 +1,98 @@
+[
+  {
+    "id": "creation-genesis",
+    "title": "Primeval History — Genesis 1–11",
+    "date": "Mythic prehistory",
+    "category": "tanakh",
+    "description": "The Torah's account of creation, the flood, and the Table of Nations, establishing the theological framework for Israelite identity.",
+    "relatedDocs": ["tanakh/torah/genesis"]
+  },
+  {
+    "id": "patriarchal-age",
+    "title": "Patriarchal Age",
+    "date": "c. 2000–1700 BCE",
+    "category": "tanakh",
+    "description": "The narratives of Abraham, Isaac, Jacob, and Joseph as recorded in Genesis 12–50.",
+    "relatedDocs": ["tanakh/torah/genesis"]
+  },
+  {
+    "id": "exodus-sinai",
+    "title": "Exodus and Sinai Covenant",
+    "date": "c. 1280–1240 BCE",
+    "category": "tanakh",
+    "description": "The liberation from Egypt under Moses and the giving of the Torah at Mount Sinai.",
+    "relatedDocs": ["tanakh/torah/exodus"]
+  },
+  {
+    "id": "enuma-elish-composition",
+    "title": "Enuma Elish Composed",
+    "date": "c. 1750 BCE",
+    "category": "ancient-near-east",
+    "description": "The Babylonian creation epic takes its canonical form, later serving as a key comparative text for Genesis 1.",
+    "relatedDocs": ["ancient-near-east/enuma-elish"]
+  },
+  {
+    "id": "isaiah-ministry",
+    "title": "Isaiah's Ministry",
+    "date": "c. 740–700 BCE",
+    "category": "tanakh",
+    "description": "The prophet Isaiah active in Jerusalem during the reigns of Uzziah, Jotham, Ahaz, and Hezekiah, under the shadow of the Assyrian empire.",
+    "relatedDocs": ["tanakh/prophets/isaiah"]
+  },
+  {
+    "id": "babylonian-exile",
+    "title": "Babylonian Exile",
+    "date": "586–538 BCE",
+    "category": "tanakh",
+    "description": "Nebuchadnezzar II destroys Jerusalem and the First Temple; the Judean elite are deported to Babylon. Deutero-Isaiah composed during this period.",
+    "relatedDocs": ["tanakh/prophets/isaiah", "second-temple/dead-sea-scrolls"]
+  },
+  {
+    "id": "second-temple-construction",
+    "title": "Second Temple Constructed",
+    "date": "c. 516 BCE",
+    "category": "second-temple",
+    "description": "The rebuilt Temple in Jerusalem is dedicated under Zerubbabel, inaugurating the Second Temple period.",
+    "relatedDocs": ["second-temple/index"]
+  },
+  {
+    "id": "dead-sea-scrolls-community",
+    "title": "Qumran Community Active",
+    "date": "c. 150 BCE–68 CE",
+    "category": "second-temple",
+    "description": "The Qumran sect (likely Essenes) produces and preserves the Dead Sea Scrolls in the Judean desert.",
+    "relatedDocs": ["second-temple/dead-sea-scrolls"]
+  },
+  {
+    "id": "jesus-ministry",
+    "title": "Ministry of Jesus",
+    "date": "c. 27–30 CE",
+    "category": "new-testament",
+    "description": "Jesus of Nazareth active in Galilee and Judea; crucified under Pontius Pilate c. 30 CE.",
+    "relatedDocs": ["new-testament/gospels/matthew"]
+  },
+  {
+    "id": "paul-romans",
+    "title": "Paul Writes Romans",
+    "date": "c. 57 CE",
+    "category": "new-testament",
+    "description": "Paul writes his epistle to the Roman church from Corinth, his most systematic theological work.",
+    "relatedDocs": ["new-testament/epistles/romans"]
+  },
+  {
+    "id": "second-temple-destruction",
+    "title": "Destruction of the Second Temple",
+    "date": "70 CE",
+    "category": "second-temple",
+    "description": "Roman legions under Titus destroy Jerusalem and the Second Temple, ending the Second Temple period and reshaping both Judaism and early Christianity.",
+    "relatedDocs": ["second-temple/dead-sea-scrolls", "new-testament/gospels/matthew"]
+  },
+  {
+    "id": "matthew-composition",
+    "title": "Gospel of Matthew Composed",
+    "date": "c. 80–90 CE",
+    "category": "new-testament",
+    "description": "The Gospel of Matthew takes its canonical form, drawing on Mark and the Q source, likely in a Jewish-Christian community in Antioch.",
+    "relatedDocs": ["new-testament/gospels/matthew"]
+  }
+]
